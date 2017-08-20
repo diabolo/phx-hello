@@ -17,3 +17,9 @@ config :hello, Hello.Repo,
   database: "hello_test",
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox
+
+# Configure hound which is like capybara
+config :hound, driver: "phantomjs"
+# config :hound, driver: "selenium"
+# config :hound, browser: "chrome"
+
