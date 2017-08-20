@@ -42,7 +42,8 @@ defmodule Hello.Mixfile do
       {:phoenix_live_reload, "~> 1.0", only: :dev},
       {:gettext, "~> 0.11"},
       {:cowboy, "~> 1.0"},
-      {:white_bread, "~> 3.1", only: [:dev, :test] }
+      {:white_bread, "~> 3.1", only: [:dev, :test] },
+      {:hound, only: [:dev, :test]},
     ]
   end
 
