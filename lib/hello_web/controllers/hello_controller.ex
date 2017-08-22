@@ -1,4 +1,4 @@
-defmodule HelloWeb.PageController do
+defmodule HelloWeb.HelloController do
   use HelloWeb, :controller
 
   def index(conn, _params) do
@@ -6,3 +6,4 @@ defmodule HelloWeb.PageController do
     render conn, "index.html"
   end
 end
+
